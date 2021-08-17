@@ -22,15 +22,15 @@ function operation() {
     }
 
     else if (operator == '-') {
-        textArea.value = (parseFloat(value1) + parseFloat(value2));
+        textArea.value = (parseFloat(value1) - parseFloat(value2));
     }
 
     else if (operator == '*') {
-        textArea.value = (parseFloat(value1) + parseFloat(value2));
+        textArea.value = (parseFloat(value1) * parseFloat(value2));
     }
 
     else if (operator == '/') {
-        textArea.value = (parseFloat(value1) + parseFloat(value2));
+        textArea.value = (parseFloat(value1) / parseFloat(value2));
     }
     value1 = '';
     value2 = '';
