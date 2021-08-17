@@ -18,19 +18,19 @@ document.getElementById('c').addEventListener('click', function () {
 function operation() {
     // debugger;
     if (operator == '+') {
-        textArea.value = (parseInt(value1) + parseInt(value2));
+        textArea.value = (parseFloat(value1) + parseFloat(value2));
     }
 
     else if (operator == '-') {
-        textArea.value = (parseInt(value1) - parseInt(value2));
+        textArea.value = (parseFloat(value1) + parseFloat(value2));
     }
 
     else if (operator == '*') {
-        textArea.value = (parseInt(value1) * parseInt(value2));
+        textArea.value = (parseFloat(value1) + parseFloat(value2));
     }
 
     else if (operator == '/') {
-        textArea.value = (parseInt(value1) / parseInt(value2));
+        textArea.value = (parseFloat(value1) + parseFloat(value2));
     }
     value1 = '';
     value2 = '';
